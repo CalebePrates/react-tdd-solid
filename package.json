@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/CalebePrates/react-tdd-solid/issues"
   },
-  "homepage": "https://github.com/CalebePrates/react-tdd-solid#readme"
+  "homepage": "https://github.com/CalebePrates/react-tdd-solid#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^3.2.8"
+  }
 }
