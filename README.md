@@ -21,4 +21,5 @@
   • Git Commit Msg Linter
   • Conventional Commits
   • TS Jest
+  • Faker
 </p>
