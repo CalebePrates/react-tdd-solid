@@ -1,7 +1,10 @@
 {
   "extends": "standard-with-typescript",
+  "files": ["*.ts", "*.tsx"],
   "parserOptions": {
-    "project": "./tsconfig.json"
+    "project": "tsconfig.json",
+    "tsconfigRootDir": "./",
+    "sourceType": "module"
   },
   "rules": {
     "@typescript-eslint/consistent-type-definitions": "off",
