@@ -7,7 +7,8 @@
     "test": "jest --passWithNoTests",
     "test:watch": "npm test -- --watch",
     "test:staged": "npm test -- --findRelatedTests",
-    "test:ci": "npm test -- --coverage"
+    "test:ci": "npm test -- --coverage",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -36,7 +37,7 @@
     "eslint-plugin-standard": "^5.0.0",
     "faker": "^5.5.3",
     "git-commit-msg-linter": "^3.2.8",
-    "husky": "^4.3.8",
+    "husky": "^7.0.4",
     "jest": "^27.3.1",
     "lint-staged": "^12.1.2",
     "ts-jest": "^27.0.7",
@@ -46,5 +47,8 @@
     "axios": "^0.24.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
   }
 }
